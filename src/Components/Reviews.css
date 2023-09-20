@@ -1,0 +1,58 @@
+.Reviews {
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.Review {
+  width: 100%;
+  display: flex;
+}
+
+.Review-Image {
+  height: 7em;
+  width: 7em;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 1em;
+  grid-area: "image";
+}
+
+.Review-Info {
+  display: "flex";
+  flex-direction: "column";
+}
+
+.Review-Name {
+  font-size: 2rem;
+  grid-area: "name";
+  margin: 0;
+}
+
+.Review-Date {
+  grid-area: "date";
+  font-size: 1rem;
+  margin: 0;
+}
+
+.Reviews-Rating {
+  height: 2em;
+  margin-bottom: 2em;
+  font-size: small;
+}
+
+.Reviews-Rating-Image {
+  height: 3em;
+  width: 10em;
+  /* background-color: #bbb; */
+  display: inline-block;
+}
+
+.Reviews-Text {
+  width: 100%;
+  /* background-color: black; */
+  font-size: 1em;
+}

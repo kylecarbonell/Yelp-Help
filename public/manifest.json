@@ -1,0 +1,10 @@
+{
+  "name": "Yelp Help",
+  "description": "Shows recent yelp reviews",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Yelp Help",
+    "default_popup": "index.html"
+  }
+}
