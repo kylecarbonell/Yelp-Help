@@ -44,8 +44,8 @@ function Review(props: ReviewProps) {
 
   const formatDate = (date: string) => {
     const [year, month, tempDay] = date.split("-");
-    const [day, remove] = tempDay.split(" ");
-    return `${month}/${day}/${year}`;
+    const day = tempDay.split(" ");
+    return `${month}/${day[0]}/${year}`;
   };
 
   return (
